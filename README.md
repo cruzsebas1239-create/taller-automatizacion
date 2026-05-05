@@ -1,1 +1,15 @@
 # taller-automatizacion
+| Aspecto                     | Make                                                                                | CMake                                                                                         |
+| --------------------------- | ----------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
+| **Definición**              | Herramienta clásica de automatización de compilación basada en archivos `Makefile`. | Generador de sistemas de compilación que crea archivos para Make, Ninja, Visual Studio, etc.  |
+| **Objetivo principal**      | Compilar y automatizar tareas directamente mediante reglas definidas manualmente.   | Gestionar proyectos multiplataforma y generar configuraciones de compilación automáticamente. |
+| **Archivo principal**       | `Makefile`                                                                          | `CMakeLists.txt`                                                                              |
+| **Facilidad de uso**        | Más simple para proyectos pequeños, pero se vuelve complejo en proyectos grandes.   | Más estructurado y organizado para proyectos medianos y grandes.                              |
+| **Portabilidad**            | Limitada: depende mucho del sistema operativo y compilador.                         | Alta: funciona en Windows, Linux y macOS, y soporta múltiples compiladores.                   |
+| **Automatización**          | Manual: el programador define dependencias, reglas y comandos.                      | Semiautomática: detecta compiladores, bibliotecas y dependencias.                             |
+| **Curva de aprendizaje**    | Relativamente sencilla al inicio, pero complicada en configuraciones avanzadas.     | Más pronunciada al principio por su sintaxis y conceptos.                                     |
+| **Escalabilidad**           | Baja a media; difícil mantener proyectos muy grandes.                               | Alta; ideal para proyectos grandes y colaborativos.                                           |
+| **Manejo de dependencias**  | Manual.                                                                             | Mejor integrado; permite localizar librerías externas fácilmente.                             |
+| **Compatibilidad con IDEs** | Limitada.                                                                           | Excelente integración con IDEs como Visual Studio, CLion y Code::Blocks.                      |
+| **Velocidad**               | Rápido y directo porque ejecuta reglas específicas.                                 | Añade una capa extra al generar archivos antes de compilar.                                   |
+| **Flexibilidad**            | Muy flexible pero requiere mucho control manual.                                    | Flexible y más abstraído, reduce errores humanos.                                             |
